@@ -1,0 +1,348 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1400px) {
+	.black__images img{
+		max-width: 400px;
+	}
+
+}
+
+@media only screen and (max-width : 1030px) {
+	.black__images img{
+		max-width: 330px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.wrapper__name{
+		letter-spacing: 27px;
+	}
+
+	section{
+		padding: 60px 0;
+	}
+
+	.about__title{
+		padding-bottom: 30px;
+	}
+
+	.col-md-1{
+		width: 100%;
+		float: none;
+
+	}
+
+	.black__images img{
+		margin-top: -100px;
+	}
+
+	.slider__inner .slick-dots{
+		bottom: -20px;
+	}
+	.slider__text{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.header__news{
+    	margin-bottom: 30px;
+	}
+
+	.news__subtitle{
+        margin-bottom: 10px;
+	}
+
+	.news__author{
+        margin-bottom: 15px;
+    }
+
+	.news__text{
+        margin-bottom: 15px;
+    }
+
+	.news__img-item img{
+		margin-top: 20px;
+    	margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width : 830px) {
+	.black__images-tablet{
+		display: none;
+	}
+
+	.contact__form-column{
+		width: 100%;
+		float: none;
+	}
+
+	.contact__form-column:first-child{
+    	padding-right: 0px;
+	}
+
+	.contact__form-column:last-child{
+    	padding-left: 0px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.header__menu ul{
+		display: none;
+		position: absolute;
+		top: 80px;
+		text-align: center;
+		left: 0;
+		right: 0;
+
+	}
+
+	.header__menu-list li{
+		display: block;
+	}
+
+	.header__menu-list li + li{
+		margin-left: 0;
+		border-top: 1px solid #000;
+	}
+
+	.header__menu-list a{
+    	font-size: 16px;
+    	display: block;
+    	line-height: 50px;
+    	height: 50px;
+    	background-color: #ccc;
+    	text-align: center;
+    	color: #000;
+    }
+
+	.btn-menu{
+		display: block;
+	}
+
+	.col-sm-1{
+    	width: 100%;
+    	float: none;
+    }
+
+    .about-text{
+    	margin: 8px 0;
+    }
+
+    .about__img-item img{
+    	margin-bottom: 10px;
+    }
+
+    .about__img-item{
+    	margin-bottom: 25px;
+    }
+
+	.about__position{
+		margin-top: 0px;
+	}
+
+    .services__title{
+    padding-bottom: 60px;
+	}
+	
+    .col-sm-2{
+    	width: 50%;
+    }
+	
+   	.tab{
+		padding-bottom: 20px;
+	}
+
+    .services__tabs .tabs{
+    	padding-bottom: 30px;
+	}
+
+	.services{
+    	padding-bottom: 0;
+	} 
+
+	.about__title-text{
+    	font-size: 20px;
+    	line-height: 30px;
+    }
+
+    .portfolio__title{
+    	margin-bottom: 30px;
+    }
+
+   .portfolio__text{
+    	margin: 0 auto 30px;
+   	}
+
+
+    .portfolio__items-content a{
+    	width: 50%;
+    }
+
+	.merits-caption{
+   		margin-bottom: 15px;
+    }
+
+    .merits-text{
+    	margin-bottom: 40px;
+	}
+
+	.slider__inner .slick-btn {
+		display: none;
+	}
+
+	.slider__item .slider__title span{
+        font-size: 35px;
+    	margin-bottom: 20px;
+	}
+
+	.slider__title{
+		margin-bottom: 20px;
+	}
+
+	section{
+		padding: 45px 0;
+	}
+
+	.contact__title{
+		margin-bottom: 40px;
+	}
+
+	.contact__form-column input[type="email"]{
+    	margin-bottom: 10px;
+	}
+
+	.contact__info{
+		margin-bottom: 40px;
+	}
+
+	
+}
+
+@media only screen and (max-width : 640px) {
+	.wrapper__name{
+		letter-spacing: 16px;
+	}
+
+	.portfolio__items-head button + button{
+    	margin-left: 30px;
+	}
+
+}
+
+@media only screen and (max-width : 550px) {
+	.portfolio__items-head button + button{
+    	margin-left: 10px;
+	}
+
+	.header__news__link a{
+    	width: 100%;
+    	float: none;	
+	}
+
+	.header__news{
+    	margin-bottom: 0px;
+	}
+
+	.subscribe__btn{
+    	width: 100%;
+    	float: none;
+    	margin-top: 15px;
+	}
+
+	.subscribe{
+    padding: 50px 0 50px;
+	}
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.wrapper__name{
+		letter-spacing: 10px;
+	}
+
+	.wrapper__text{
+		max-width: 250px;
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 103px;
+	}
+
+	.col-xs-1{
+    	width: 100%;
+    	float: none;
+    }
+
+	.portfolio__items-head button + button{
+    	margin-left: 0;
+	}
+
+    .portfolio__items-head button{
+    	display: block;
+    	width: 100%;
+    	margin: 0 auto;
+    	margin-bottom: 10px;
+    }
+
+    .portfolio__items-content a{
+    	width: 100%;
+    }
+
+    .contact__form-row input[type="submit"]{
+       	width: 100%;
+    	float: none;
+    }
+
+    .contact__form-info{
+    	 margin-bottom: 15px;
+    }
+
+}
+
+@media only screen and (max-width : 380px) {
+	.wrapper__name{
+		letter-spacing: 5px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.wrapper__name{
+		letter-spacing: 5px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+	.header__menu ul{
+		display: block !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
